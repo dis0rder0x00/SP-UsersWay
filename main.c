@@ -34,7 +34,7 @@ int main() {
     // Small delay to ensure the run dialog is open
     Sleep(500);
 
-    // Type "calc" and press Enter
+    // Type the command and press Enter
     const char* command = "cmd.exe /C whoami&pause";
     for (int i = 0; command[i] != '\0'; i++) {
         PressKey(command[i]);
